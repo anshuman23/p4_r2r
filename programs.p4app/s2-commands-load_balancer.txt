@@ -1,0 +1,4 @@
+table_set_default ecmp_group drop
+table_add ecmp_group set_ecmp_select 10.0.2.2/32 => 0 1
+table_add ecmp_nhop set_nhop 0 => 00:00:00:00:02:02 10.0.2.2 1
+table_add send_frame rewrite_mac 1 => 00:00:00:02:01:00

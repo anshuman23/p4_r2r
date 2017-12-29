@@ -29,6 +29,9 @@ re23='.*?'
 re24='((?:[a-z][a-z0-9_]*))'
 
 prog_name = raw_input("Enter program name: ")
+if prog_name == 'load_balancer':
+    prog_name = 'mri'
+
 container_name = ''
 
 rg = re.compile(re1+re2+re3+re4+re5+re6+re7+re8+re9+re10+re11+re12+re13+re14+re15+re16+re17+re18+re19+re20+re21+re22+re23+re24,re.IGNORECASE|re.DOTALL)

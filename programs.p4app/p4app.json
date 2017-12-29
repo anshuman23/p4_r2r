@@ -1,5 +1,5 @@
 {
-    "program": "mri.p4",
+    "program": "load_balancer.p4",
     "language": "p4-16",
     "targets": {
       "multiswitch": {
@@ -18,13 +18,13 @@
           },
           "switches": {
               "s1": {
-                  "commands": "s1-commands-mri.txt"
+                  "commands": "s1-commands-load_balancer.txt"
               },
               "s2": {
-                  "commands": "s2-commands-mri.txt"
+                  "commands": "s2-commands-load_balancer.txt"
               },
               "s3": {
-                  "commands": "s3-commands-mri.txt"
+                  "commands": "s3-commands-load_balancer.txt"
               }
           }
 	    }
