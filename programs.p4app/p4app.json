@@ -1,5 +1,5 @@
 {
-    "program": "load_balancer.p4",
+    "program": "ipv4_forward.p4",
     "language": "p4-16",
     "targets": {
       "multiswitch": {
@@ -18,13 +18,13 @@
           },
           "switches": {
               "s1": {
-                  "commands": "s1-commands-load_balancer.txt"
+                  "commands": "s1-commands-ipv4_forward.txt"
               },
               "s2": {
-                  "commands": "s2-commands-load_balancer.txt"
+                  "commands": "s2-commands-ipv4_forward.txt"
               },
               "s3": {
-                  "commands": "s3-commands-load_balancer.txt"
+                  "commands": "s3-commands-ipv4_forward.txt"
               }
           }
 	    }

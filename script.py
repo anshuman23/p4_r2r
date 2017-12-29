@@ -29,7 +29,7 @@ re23='.*?'
 re24='((?:[a-z][a-z0-9_]*))'
 
 prog_name = raw_input("Enter program name: ")
-if prog_name == 'load_balancer':
+if prog_name == 'load_balancer' or 'ipv4_forward':
     prog_name = 'mri'
 
 container_name = ''
