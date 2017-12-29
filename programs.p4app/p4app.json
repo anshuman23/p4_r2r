@@ -1,5 +1,5 @@
 {
-    "program": "scrambler.p4",
+    "program": "mri.p4",
     "language": "p4-16",
     "targets": {
       "multiswitch": {
@@ -18,13 +18,13 @@
           },
           "switches": {
               "s1": {
-                  "commands": "s1-commands.txt"
+                  "commands": "s1-commands-mri.txt"
               },
               "s2": {
-                  "commands": "s2-commands.txt"
+                  "commands": "s2-commands-mri.txt"
               },
               "s3": {
-                  "commands": "s3-commands.txt"
+                  "commands": "s3-commands-mri.txt"
               }
           }
 	    }

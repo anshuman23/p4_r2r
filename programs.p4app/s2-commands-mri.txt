@@ -1,0 +1,5 @@
+table_set_default ipv4_lpm drop
+table_set_default swid add_swid 2
+table_add ipv4_lpm ipv4_forward 10.0.2.10/32 => 00:aa:00:02:00:02 1
+table_add ipv4_lpm ipv4_forward 10.0.1.10/32 => 22:a8:04:41:ab:d3 2
+table_add ipv4_lpm ipv4_forward 10.0.3.10/32 => 22:a8:04:41:ab:d4 3
